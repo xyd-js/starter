@@ -1,0 +1,43 @@
+{
+    "navigation": {
+        "header": [
+            {
+                "title": "Guides",
+                "page": ""
+            },
+            {
+                "title": "API Reference",
+                "page": "api-reference"
+            }
+        ],
+        "sidebar": [
+            {
+                "group": "Get Started",
+                "pages": [
+                    "introduction",
+                    "pages-and-routing"
+                ]
+            },
+            {
+                "group": "Writing",
+                "pages": [
+                    "markdown",
+                    "developer-content"
+                ]
+            },
+            {
+                "group": "Customization",
+                "pages": [
+                    "make-docs-yours",
+                    "icons"
+                ]
+            }
+        ]
+    },
+    "api": {
+        "openapi": {
+            "source": "openapi.json",
+            "route": "api-reference"
+        }
+    }
+}
