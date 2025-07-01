@@ -1,0 +1,9 @@
+{
+  "template": "node",
+  "container": {
+    "node": "22"
+  },
+  "setupFiles": [
+    "codesandbox.js"
+  ]
+} 
