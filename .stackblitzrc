@@ -1,4 +1,4 @@
 {
   "installDependencies": false,
-  "startCommand": "bun add -g xyd && xyd"
+  "startCommand": "npm i -g bun && bun add -g xyd && xyd"
 } 
