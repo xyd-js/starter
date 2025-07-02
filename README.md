@@ -32,7 +32,7 @@ Make sure you have Node.js installed on your system.
 Install the xyd-js CLI globally:
 
 ```bash
-npm i -g xyd-js
+bun add -g xyd-js
 ```
 
 ### Development
@@ -43,7 +43,7 @@ Run the development server at the root of your documentation (where `docs.json` 
 xyd
 ```
 
-This will start a local development server with hot reload enabled. Your documentation will be available at `http://localhost:3000` (or the next available port).
+This will start a local development server with hot reload enabled. Your documentation will be available at `http://localhost:5175` (or the next available port).
 
 ### Building for Production
 
@@ -61,7 +61,6 @@ This produces static files within `.xyd/build/client` which you can deploy to an
 starter/
 ├── docs.json              # Main configuration file
 ├── openapi.json           # OpenAPI specification
-├── netlify.toml          # Netlify deployment configuration
 ├── docs/                 # Documentation pages
 ├── api-reference/        # API reference pages
 ├── public/              # Static assets
@@ -78,22 +77,14 @@ The main configuration file `docs.json` controls:
 
 ## Deployment
 
-### Netlify
-
-This starter kit includes a `netlify.toml` configuration for easy deployment on Netlify:
-
-1. Connect your repository to Netlify
-2. The build command and publish directory are already configured
-3. Deploy automatically on every push to your main branch
-
-### Other Platforms
-
 Since xyd-js generates static files, you can deploy to any static hosting platform:
 
 - **Vercel**: Connect your repository and deploy
 - **GitHub Pages**: Push to a `gh-pages` branch
 - **AWS S3**: Upload the `.xyd/build/client` directory
 - **Any CDN**: Serve the static files from your preferred provider
+
+To learn more, check out our [Deploy Samples](https://github.com/xyd-js/deploy-samples).
 
 ## Customization
 
