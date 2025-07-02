@@ -1,4 +1,5 @@
 {
   "installDependencies": false,
-  "startCommand": "pnpm add -g @xyd-js/cli && xyd"
+  "startCommand": "npx @xyd-js/cli build",
+  "nodeVersion": "22"
 } 
