@@ -16,7 +16,7 @@
         "header": [
             {
                 "title": "Guides",
-                "page": ""
+                "href": "introduction"
             },
             {
                 "title": "API Reference",
@@ -52,5 +52,11 @@
             "source": "openapi.json",
             "route": "api-reference"
         }
-    }
+    },
+    "redirects": [
+        {
+            "source": "index",
+            "destination": "introduction"
+        }
+    ]
 }
